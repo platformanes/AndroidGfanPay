@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/3.5">
+  <id>com.sfan.pay</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+  
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>gfanpayane.jar</nativeLibrary>
+        <initializer>com.sfan.pay.ane.SfanPayExtension</initializer>
+        <finalizer>com.sfan.pay.ane.SfanPayExtension</finalizer>
+      </applicationDeployment>
+    </platform>
+    
+  </platforms>
+</extension>
