@@ -19,12 +19,12 @@ import com.gfan.pay.func.GfanPayRegist;
 import com.gfan.pay.func.GfanPayUpdateUser;
 /**
  * 映射
- * @author GFAN_PAY 2013-5-5
+ * @author Rect 2013-5-5
  */
 public class GfanPayContext extends FREContext {
 
 	/**
-	 * initKey 
+	 * initKey
 	 */
 	public static final String GFAN_PAY_FUNCTION_INIT = "gfan_pay_function_init";
 	/**
@@ -85,8 +85,8 @@ public class GfanPayContext extends FREContext {
 		Map<String, FREFunction> map = new HashMap<String, FREFunction>();
 	       //映射
 		   map.put(GFAN_PAY_FUNCTION_INIT, new GfanPayInit());
-	       map.put(GFAN_PAY_FUNCTION_LOGIN, new GfanPayLogin());  
-	       map.put(GFAN_PAY_FUNCTION_PAY, new GfanPayPay());    
+	       map.put(GFAN_PAY_FUNCTION_LOGIN, new GfanPayLogin());
+	       map.put(GFAN_PAY_FUNCTION_PAY, new GfanPayPay());
 	       map.put(GFAN_PAY_FUNCTION_CHARGE, new GfanPayCharge());
 	       map.put(GFAN_PAY_FUNCTION_LOGOUT, new GfanPayLogout());
 	       map.put(GFAN_PAY_FUNCTION_REG, new GfanPayRegist());

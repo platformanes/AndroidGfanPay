@@ -27,7 +27,7 @@ public class GfanPayPay implements FREFunction {
 		try
 		{
 			orderId = arg1[0].getAsString();
-			payStr = arg1[0].getAsString();
+			payStr = arg1[1].getAsString();
 			startGfanPay();
 		}
 		catch(Exception e)

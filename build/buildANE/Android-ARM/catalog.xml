@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/gfan/pay/ane/GfanPayEvents" mod="1375153084515" signatureChecksum="692566886" >
+        <def id="com.gfan.pay.ane:GfanPayEvents" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="_f438a9a7cc51d36d88251c4f8f4349775919ed575073be7ece985ea95ad84ccb_flash_display_Sprite" mod="1375153163234" signatureChecksum="3003546353" >
+        <def id="_f438a9a7cc51d36d88251c4f8f4349775919ed575073be7ece985ea95ad84ccb_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/gfan/pay/ane/GfanPayExtension" mod="1375153126203" signatureChecksum="1171049573" >
+        <def id="com.gfan.pay.ane:GfanPayExtension" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="e62ace000b189b72f78d25b1833d3683fe573995b98b3690f0b0e0caa4b33eaf"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
