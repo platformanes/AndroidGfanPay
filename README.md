@@ -7,6 +7,7 @@
 
 * 参照官方DEMO所编写
 * ANE体积 大小减小到900K左右；
+* DEMO在aneTest下  `androidSfanPaySample.apk.demo`改名为`androidSfanPaySample.apk`即可安装。
 
 ## 资源
 
